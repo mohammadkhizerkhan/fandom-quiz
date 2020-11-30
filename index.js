@@ -2,13 +2,14 @@ var readlineSync=require("readline-sync")
 const chalk = require('chalk');
 
 var username=readlineSync.question("wts your name?")
+// initializing score
 
 var score=0
 
 console.log("welcome "+ username )
 
 var ready=readlineSync.question("Are you ready for quiz?(press 'y' for YES 'n' for NO):\n")
-
+// checking suitable answers with respective questions 
 if( ready==="y"){
 
 function play(question,answer){
