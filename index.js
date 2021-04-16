@@ -47,7 +47,7 @@ var q3={
 }
 var q4={
   question:"who is strongest avenger?:\n",
-  answer:"catain marvel"
+  answer:"captain marvel"
 }
 var q5={
   question:"who is called as modernday ironman?:\n",
